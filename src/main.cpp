@@ -205,7 +205,7 @@ int main()
     glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, true);
 
     // Create main window
-    GLFWwindow* mainWindow = glfwCreateWindow(WIDTH, HEIGHT, "Indexed Draws Test", nullptr, nullptr);
+    GLFWwindow* mainWindow = glfwCreateWindow(WIDTH, HEIGHT, "Perspective Projection Test", nullptr, nullptr);
 
     // Return if the main GLFW window cannot be created
     if (mainWindow == nullptr)
